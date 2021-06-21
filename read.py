@@ -34,7 +34,7 @@ def getColumnIndices(*args, filepath="CO2.tab"):
 
 
 def outputList(l, file):
-    file.write(", ".join(l) + "\n")
+    file.write(",".join(l) + "\n")
 
 
 with open("CO2.tab") as f:
