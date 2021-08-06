@@ -25,7 +25,7 @@ def getColumnIndices(*args, filepath="CO2.tab"):
     Returns the indices of the specified columns
     """
     # idxDict = {"PT": 0, "TM": 0, "HG": 0, "SEG": 0}
-    idxDict = {"PT": 0, "TM": 0, "HG": 0}
+    idxDict = {"PT": 0, "TM": 0, "HG": 0, "VISG": 0, "VISHL": 0, "ROG": 0, "ROHL": 0}
     if filepath:
         cols = tabLineToList(readFullLine(filepath, 52))
     for key in idxDict:
